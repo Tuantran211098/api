@@ -1,0 +1,19 @@
+.footer {
+  background: #000000;
+  padding: 20px 0px;
+  margin: 0;
+  color: white;
+}
+
+.footer .social_icon_footer a:hover i {
+  -webkit-transition: all 1.5s;
+  transition: all 1.5s;
+  color: red !important;
+  z-index: 999;
+}
+
+.footer iframe {
+  width: 100%;
+  height: 250px;
+}
+/*# sourceMappingURL=style.css.map */

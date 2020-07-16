@@ -1,0 +1,20 @@
+.fixed-Top{
+position: fixed;
+z-index: 1;
+width: 100%;
+transition: ease all 5s;
+transition-duration: 500ms;
+-webkit-transition-duration: 500ms;
+-o-transition-duration: 500ms;
+-webkit-transition:all 500ms ease;
+-o-transition:all 500ms;
+box-shadow: 0 0 5px 0 #129cf3;
+}
+.fixed-img{
+    width: 60px !important;
+    height: auto;
+    transition: ease all 2s;
+}
+.match{
+    color: black !important;
+}

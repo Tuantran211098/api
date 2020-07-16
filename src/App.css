@@ -1,12 +1,24 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  overflow-x: hidden;
+  width: 100%;
+  box-sizing: border-box;
 }
 
+
+
+/*footer*/
+
+@media screen and (min-width:1200px){
+  .slider_commentProduct .slick-dots li.slick-active button:before {
+    display: none
+  }
+  .slider_commentProduct .slick-dots {
+    position: relative;
+    bottom: -10px;}
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

@@ -1,0 +1,55 @@
+/*comment slider*/
+.slider_commentProduct{
+    margin-top: 20px;
+    .slick-list {
+    height: 393px;
+  }
+ .slick-dots {
+    display: flex !important;
+    justify-content: center;
+  
+  }
+  .slick-active {
+    background-color: #eee;
+      border-radius: 50%;
+    }
+   li {
+      border: 1px solid #404272;
+      border-radius: 50%;
+      width: 12px !important;
+      height: 12px !important;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition: all 0.7s;background-color: black;
+    }
+   .slick-slider img{
+      height: auto !important;
+      border-radius: 8px;
+    }
+  .slick-slide>div>div{
+      display: flex !important;
+      align-items: flex-start;padding: 5px 0px;
+    }
+    .image_slider_commentProduct{
+      width: 40%;
+    }
+    .infomation_slider_commentProduct{
+      width: 59%;
+      padding-left: 10px;
+      line-height: 0.2;
+    }
+     .slick-slider {
+      background: #eee;
+      padding: 10px;
+      border-radius: 5px;
+  }
+  .programme-sale{
+    display: flex
+  }
+  .programme-sale img{
+    position: absolute;
+    right: 10px !important;
+    top: -15px
+  }
+}

@@ -1,0 +1,14 @@
+/*scroll-foods*/
+.scroll-foods{
+    margin-top: 25px;
+     div img{
+        height: 200px;  padding: 5px 5px;
+        object-fit: cover;
+    }
+  .scroll-foods div.responsive div{
+    padding-right: 5;
+  }
+  .scroll-foods>div{
+    padding: 0 5px 0 0px;
+  }
+}
